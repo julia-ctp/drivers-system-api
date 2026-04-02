@@ -7,7 +7,6 @@ const JWT_SECRET = process.env.JWT_SECRET || "secret";
 export interface LoginPayload {
   id: string;
   email: string;
-  password: string;
 }
 
 export function generateToken(

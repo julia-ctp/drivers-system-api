@@ -17,7 +17,6 @@ export class AuthService {
     const payload: LoginPayload = {
       id: user.id,
       email: user.email,
-      password: user.password,
     };
     const token = generateToken(payload);
 
